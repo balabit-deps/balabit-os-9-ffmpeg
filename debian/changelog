@@ -1,3 +1,11 @@
+ffmpeg (7:4.4.2-0ubuntu0.22.04.1bb1) jammy; urgency=medium
+
+  * debian/control: remove unnecessary dependencies
+  * debian: disable everything, LGPL v2.1
+  * project: added helper scripts with minimal configuration for SDP
+
+ -- Imre Steiner <imre.steiner@oneidentity.com> Tue, 13 Dec 2022 10:19:06 +0100
+
 ffmpeg (7:4.4.2-0ubuntu0.22.04.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: New upstream bugfix release.
