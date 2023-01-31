@@ -1,1 +1,4 @@
 extra/usr/share/ffmpeg/examples
+usr/share/man/*
+usr/share/ffmpeg/examples/*
+usr/share/doc/ffmpeg/*

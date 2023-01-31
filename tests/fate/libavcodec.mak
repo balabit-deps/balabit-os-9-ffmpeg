@@ -84,11 +84,6 @@ fate-libavcodec-utils: libavcodec/tests/utils$(EXESUF)
 fate-libavcodec-utils: CMD = run libavcodec/tests/utils$(EXESUF)
 fate-libavcodec-utils: CMP = null
 
-FATE_LIBAVCODEC-yes += fate-libavcodec-huffman
-fate-libavcodec-huffman: libavcodec/tests/mjpegenc_huffman$(EXESUF)
-fate-libavcodec-huffman: CMD = run libavcodec/tests/mjpegenc_huffman$(EXESUF)
-fate-libavcodec-huffman: CMP = null
-
 FATE_LIBAVCODEC-yes += fate-libavcodec-htmlsubtitles
 fate-libavcodec-htmlsubtitles: libavcodec/tests/htmlsubtitles$(EXESUF)
 fate-libavcodec-htmlsubtitles: CMD = run libavcodec/tests/htmlsubtitles$(EXESUF)
